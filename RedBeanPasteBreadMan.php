@@ -35,7 +35,7 @@ class RedBeanPasteBreadMan extends Hero
      */
     public function getIntro()
     {
-        return '~';
+        return 'sugeemojibakeshiteruyo';
     }
 }
 ?>
