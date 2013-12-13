@@ -11,31 +11,34 @@
  * @license   http://www.php.net/license/3_0.txt  PHP License 3.0
  * @link      http://homepage3.nifty.com/renoiv/php/phpcs/execute.html
  */
- 
+
 /**
  * カレーパンマン
  *
  * @category Bread
- * @package  CurryBreadMan
- * @author   Mr.Jam <mrjam@anpanman.jp>
- * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
- * @link     http://anpanman.jp/index.html
+ * @package CurryBreadMan
+ * @author Mr.Jam <mrjam@anpanman.jp>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link http://anpanman.jp/index.html
  */
-class CurryBreadMan extends Hero
-{
+class CurryBreadMan extends Hero {
+    protected $name = 'カレーパンマン';
+    protected $finish_echo = '';
 
-    protected $name='カレーパンマン';
-    protected $finish_echo='';
-              
     /**
      * 紹介文
      *
      * @access public
      * @return string
      */
-    public function getIntro()
-    {
-        return '~';
+    public function getIntro() {
+        $msg = <<<EOS
+
+おいらカレーパンマン！
+おかーさんは中華ぱんまん！
+でも、おとーさんは太郎君です。
+EOS;
+        return $msg;
     }
 }
 ?>
