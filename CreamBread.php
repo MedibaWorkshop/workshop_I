@@ -35,7 +35,7 @@ class CreamBread extends Hero
      */
     public function getIntro()
     {
-	    return 'ABCD';
+	    return '見せて貰おうか。連邦軍のモビルスーツの性能とやらを！';
     }
 }
 ?>
