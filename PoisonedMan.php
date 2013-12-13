@@ -35,7 +35,7 @@ class PoisonedMan extends Heel
      */
     public function getCatcall()
     {
-	    return '~';
+	    return 'aaaaaaaaaaaaaaaaaa';
     }
 }
 ?>
