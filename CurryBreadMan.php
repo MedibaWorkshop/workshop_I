@@ -23,7 +23,7 @@
  */
 class CurryBreadMan extends Hero {
     protected $name = 'カレーパンマン';
-    protected $finish_echo = '';
+    protected $finish_echo = '2013/12/20 追加します。';
 
     /**
      * 紹介文
