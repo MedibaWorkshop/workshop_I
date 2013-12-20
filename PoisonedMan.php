@@ -35,7 +35,7 @@ class PoisonedMan extends Heel
      */
     public function getCatcall()
     {
-	    return 'modify work3 【カイジ】 奇跡なんて望むな！「勝つ」ってことは…そんな神頼みなんかじゃなく…具体的な勝算の彼方にある…現実だ…！勝つべくして勝つ…！';
+	    return 'modify work3 echo_test';
     }
 }
 ?>
